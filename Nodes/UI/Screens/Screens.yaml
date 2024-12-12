@@ -90,6 +90,10 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 40.0
+- Name: Screen3
+  Id: g=8ed2233aa909a31744a13ae478cc3d53
+  Supertype: Screen
+  ReferenceType: HasComponent
 - Name: Wills_Screen
   Id: g=9f45ac3ab7f0397c21b7c227e3f7fd73
   Supertype: Screen
