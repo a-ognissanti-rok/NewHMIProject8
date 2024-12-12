@@ -47,6 +47,67 @@ Children:
   Id: g=8ed2233aa909a31744a13ae478cc3d53
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: HorizontalLayout1
+    Type: RowLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: GridLayout1
+      Type: GridLayout
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Rows
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: ["100"]
+      - Name: Columns
+        Type: BaseDataVariableType
+        DataType: String
+        ModellingRule: Optional
+        ValueRank: OneDimension
+        ArrayDimensions: [0]
+        Value: ["100"]
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
 - Name: Wills_Screen
   Id: g=9f45ac3ab7f0397c21b7c227e3f7fd73
   Supertype: Screen
